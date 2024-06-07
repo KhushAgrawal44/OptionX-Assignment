@@ -1,0 +1,24 @@
+Steps to Test this Assignment.
+
+PreRequisites
+- Install Redis on your Machine.
+- Install python lts according to your machine.
+- Install Node js according to your machine.
+
+Step 1. UnZip the folder .
+
+Step 2. Run Python script to publish stock data to redis.
+      - go to the OptionX project folder in terminal and run command "python3 publish_stock_data.py". 
+      - It will start publishing stock data to redis channel.
+
+Step 3. Run node js websocket server.
+      - Open new tab in terminal .
+      - cd to the backend folder in OptionX folder.
+      - run "npm install".(It will install all dependencies)
+      - run "node server.js" (It will start the websocket server.)
+
+Step 4. Set up React Client
+      - Open new terminal tab.
+      - cd to Frontend folder in Optionx folder.
+      - run "npm install".(It will install all dependencies)
+      - run "npm start". It will start the local server up and running in the browser.
